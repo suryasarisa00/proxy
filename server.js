@@ -48,6 +48,6 @@ cors_proxy
       xfwd: false,
     },
   })
-  .listen(4000, function () {
+  .listen(port, function () {
     console.log("Running CORS Anywhere on " + host + ":" + port);
   });
